@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class Spawndiscs : MonoBehaviour{
     public GameObject discPrefab;//loads discPrefab into code
-    public float SpawnTime = 1.0f;//Default spawn time
+    public float SpawnTime = 0.2f;//Default spawn time
     private Vector2 screenBounds;//Finds screen size
     void Start()
     {

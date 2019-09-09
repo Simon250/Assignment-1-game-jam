@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DiscMove : MonoBehaviour
 {
-    public float speed = 10.0f;//default move speed
+    public float speed = 20.0f;//default move speed
     private Rigidbody2D rb;
     private Vector2 screenBounds;
 

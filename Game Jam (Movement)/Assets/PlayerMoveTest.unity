@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 346ad0db62e49d347b54a51d05bca50f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 8
 --- !u!114 &162582062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   discPrefab: {fileID: 5575146531647635969, guid: c31564d3cd90a1447be3d0e2b86f47c0,
     type: 3}
-  SpawnTime: 1
+  SpawnTime: 0.08
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -492,7 +492,7 @@ PrefabInstance:
     - target: {fileID: 5575146531647635968, guid: c31564d3cd90a1447be3d0e2b86f47c0,
         type: 3}
       propertyPath: speed
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c31564d3cd90a1447be3d0e2b86f47c0, type: 3}
