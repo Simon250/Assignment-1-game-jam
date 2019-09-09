@@ -286,5 +286,8 @@
 /define:ENABLE_TIMELINE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
+Assets\DiscMove.cs
+Assets\DiscMovment.cs
 Assets\PlayerColourChange.cs
 Assets\PlayerMovement.cs
+Assets\Spawndiscs.cs

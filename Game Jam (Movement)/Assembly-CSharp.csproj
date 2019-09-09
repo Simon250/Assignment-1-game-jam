@@ -62,8 +62,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DiscColour.cs" />
+    <Compile Include="Assets\DiscMove.cs" />
+    <Compile Include="Assets\DiscMovment.cs" />
+    <Compile Include="Assets\PlayerColition.cs" />
     <Compile Include="Assets\PlayerColourChange.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\Spawndiscs.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/SPC/Documents/GitHub/Assignment-1-game-jam/Game Jam (Movement)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
