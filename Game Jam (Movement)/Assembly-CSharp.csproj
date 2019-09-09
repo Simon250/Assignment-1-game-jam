@@ -65,7 +65,8 @@
     <Compile Include="Assets\DiscColour.cs" />
     <Compile Include="Assets\DiscMove.cs" />
     <Compile Include="Assets\DiscMovment.cs" />
-    <Compile Include="Assets\PlayerColition.cs" />
+    <Compile Include="Assets\HealthBar.cs" />
+    <Compile Include="Assets\PlayerColision.cs" />
     <Compile Include="Assets\PlayerColourChange.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Spawndiscs.cs" />
