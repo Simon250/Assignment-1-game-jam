@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 26687730}
   - component: {fileID: 26687729}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,8 +192,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26687728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.058, y: 0, z: 0}
-  m_LocalScale: {x: 19.489727, y: 9.953512, z: 1}
+  m_LocalPosition: {x: -0.027, y: -0.017, z: 0}
+  m_LocalScale: {x: 19.31432, y: 9.983373, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -686,7 +686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   curHealth: 100
-  bgImage: {fileID: 0}
-  fgImage: {fileID: 0}
-  healthBarLength: 0
+  bgImage: {fileID: 2800000, guid: 0d9cb5818e63e2246964361e22d809d6, type: 3}
+  fgImage: {fileID: 2800000, guid: 1f961ea5828516544836361dcd9e8e33, type: 3}
+  healthBarLength: 500
   damage: 0
