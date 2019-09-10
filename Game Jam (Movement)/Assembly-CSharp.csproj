@@ -62,14 +62,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CollisionDetection.cs" />
-    <Compile Include="Assets\DiscColour.cs" />
-    <Compile Include="Assets\DiscMove.cs" />
-    <Compile Include="Assets\DiscMovment.cs" />
-    <Compile Include="Assets\HealthBar.cs" />
-    <Compile Include="Assets\PlayerColourChange.cs" />
-    <Compile Include="Assets\PlayerMovement.cs" />
-    <Compile Include="Assets\Spawndiscs.cs" />
+    <Compile Include="Assets\Scripts\CollisionDetection.cs" />
+    <Compile Include="Assets\Scripts\DiscColour.cs" />
+    <Compile Include="Assets\Scripts\DiscMove.cs" />
+    <Compile Include="Assets\Scripts\DiscMovment.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\PlayerColourChange.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Spawndiscs.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/SPC/Documents/GitHub/Assignment-1-game-jam/Game Jam (Movement)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
