@@ -15,32 +15,60 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = 6.0f;
-        var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        //var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        // tests if position is out of the top boundry
-        if (transform.position.y > (screenBounds.y))
+        //// tests if position is out of the top boundry
+        //if (transform.position.y > (screenBounds.y))
+        //{
+        //    transform.position = transform.position - move;
+        //}
+        //// tests if position is out of the bottom boundry
+        //else if (transform.position.y < (-screenBounds.y))
+        //{
+        //    transform.position = transform.position - move;
+        //}
+        //// tests if position is out of the right boundry (i think its right)
+        //else if (transform.position.x > (screenBounds.x))
+        //{
+        //    transform.position = transform.position - move;
+        //}
+        //// tests if position is out of the left boundry
+        //else if (transform.position.x < (-screenBounds.x))
+        //{
+        //    transform.position = transform.position - move;
+        //}
+        //else
+        //{
+        //    transform.position += move * speed * Time.deltaTime;
+        //}
+        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+
+        // Get new position in advance
+        float xPos = transform.position.x + movement.x * speed * Time.fixedDeltaTime;
+        float yPos = transform.position.y + movement.y * speed * Time.fixedDeltaTime;
+        float x_max = screenBounds.x - 0.55f;
+        float y_max = screenBounds.y - 0.55f;
+        float x_min = -screenBounds.x + 0.55f;
+        float y_min = -screenBounds.y + 0.55f;
+
+        // Check if new position goes over boundaries and if true clamp it
+        if (xPos > x_max || xPos < x_min)
         {
-            transform.position = transform.position - move;
+            if (xPos > x_max)
+                transform.position = new Vector3(x_max, transform.position.y);
+            else
+                transform.position = new Vector3(x_min, transform.position.y);
+            movement.x = 0;
         }
-        // tests if position is out of the bottom boundry
-        else if (transform.position.y < (-screenBounds.y))
+        if (yPos > y_max || yPos < y_min)
         {
-            transform.position = transform.position - move;
+            if (yPos > y_max)
+                transform.position = new Vector3(transform.position.x, y_max);
+            else
+                transform.position = new Vector3(transform.position.x, y_min);
+            movement.y = 0;
         }
-        // tests if position is out of the right boundry (i think its right)
-        else if (transform.position.x > (screenBounds.x))
-        {
-            transform.position = transform.position - move;
-        }
-        // tests if position is out of the left boundry
-        else if (transform.position.x < (-screenBounds.x))
-        {
-            transform.position = transform.position - move;
-        }
-        else
-        {
-            transform.position += move * speed * Time.deltaTime;
-        }
+
+        transform.position += movement * speed * Time.deltaTime;
     }
 }
