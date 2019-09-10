@@ -9,11 +9,20 @@ public class CollisionDetection : MonoBehaviour
     {
         GameObject colidedobject = GameObject.Find(collision.gameObject.name);
         GameObject Player = GameObject.Find("Player");
-        //Check for a match with the specified name on any GameObject that collides with your GameObject
+        //Check for a match with the specified name on any GameObject that collides with the player
         if (colidedobject.GetComponent<Renderer>().material.color == Player.gameObject.GetComponent<Renderer>().material.color)
         {
+            GameObject scoretext = GameObject.Find("Score");
 
+            string texttemp = scoretext.GetComponent<TextMesh>().text;
 
+            string[] splitArray = texttemp.Split(char.Parse(" "));
+            string temp = splitArray[1];
+            int tempnum = int.Parse(temp);
+            tempnum += 100;
+            temp += tempnum;
+
+            scoretext.GetComponent<TextMesh>().text = temp;
         }
         if(colidedobject.GetComponent<Renderer>().material.color != Player.gameObject.GetComponent<Renderer>().material.color)
         {
