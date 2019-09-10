@@ -5,12 +5,12 @@ using UnityEngine;
 public class DiscMove : MonoBehaviour
 {
     public float speed = 20.0f;//default move speed
-    private Rigidbody2D rb;
+    private Rigidbody rb;
     private Vector2 screenBounds;
 
     void Start()
     {
-        rb = this.GetComponent<Rigidbody2D>();
+        rb = this.GetComponent<Rigidbody>();
         rb.velocity = new Vector2(-speed, 0);//sets speed of disc to oposite of speed (eg -10)
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
     }

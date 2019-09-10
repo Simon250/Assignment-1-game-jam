@@ -4,32 +4,40 @@ using UnityEngine;
 
 public class CollisionDetection : MonoBehaviour
 {
+
+    private void Start()
+    {
+        
+    }
+
+    private void Update()
+    {
+
+    }
     //Detect collisions between the GameObjects with Colliders attached
     void OnCollisionEnter(Collision collision)
     {
-        GameObject colidedobject = GameObject.Find(collision.gameObject.name);
         GameObject Player = GameObject.Find("Player");
-
-        if (colidedobject.GetComponent<Renderer>().material.color != Player.gameObject.GetComponent<Renderer>().material.color)
-        {
-            GameObject ui = GameObject.Find("Main Camera");
-            ui.GetComponent<HealthBar>().damage = -20;
-        }
+        GameObject scoretext = GameObject.Find("Score");
 
         //Check for a match with the specified name on any GameObject that collides with the player
-        if (colidedobject.GetComponent<Renderer>().material.color == Player.gameObject.GetComponent<Renderer>().material.color)
+        if (collision.gameObject.GetComponent<Renderer>().material.color == Player.gameObject.GetComponent<Renderer>().material.color)
         {
-            GameObject scoretext = GameObject.Find("Score");
-
             string texttemp = scoretext.GetComponent<TextMesh>().text;
-
             string[] splitArray = texttemp.Split(char.Parse(" "));
+            string temp2 = splitArray[0];
             string temp = splitArray[1];
             int tempnum = int.Parse(temp);
             tempnum += 100;
-            temp += tempnum;
-
-            scoretext.GetComponent<TextMesh>().text = temp;
+            temp2 = temp2 + " " + tempnum;
+            
+            scoretext.GetComponent<TextMesh>().text = temp2;
         }
+        else {
+            GameObject ui = GameObject.Find("Main Camera");
+            ui.GetComponent<HealthBar>().damage = -20;
+        }
+        Player = null;
+        scoretext = null;
     }
 }
