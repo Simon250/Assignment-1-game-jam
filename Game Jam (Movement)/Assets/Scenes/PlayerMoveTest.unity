@@ -132,7 +132,11 @@ GameObject:
   - component: {fileID: 26687730}
   - component: {fileID: 26687729}
   m_Layer: 0
+<<<<<<< HEAD
   m_Name: Background
+=======
+  m_Name: Quad
+>>>>>>> parent of 8fabf81... Delete PlayerMoveTest.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -193,12 +197,17 @@ Transform:
   m_GameObject: {fileID: 26687728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -0.027, y: -0.017, z: 0}
   m_LocalScale: {x: 19.31432, y: 9.983373, z: 1}
 =======
   m_LocalPosition: {x: 0.017, y: -0.014, z: 0}
   m_LocalScale: {x: 19.567684, y: 10.043274, z: 1}
 >>>>>>> 1308ac24252005898c4488bfacf1c8bf00c783a7
+=======
+  m_LocalPosition: {x: 0.017, y: -0.014, z: 0}
+  m_LocalScale: {x: 19.567684, y: 10.043274, z: 1}
+>>>>>>> parent of 8fabf81... Delete PlayerMoveTest.unity
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -210,6 +219,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 0}
       propertyPath: m_UseAutoMass
       value: 1
@@ -218,6 +228,8 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 8fabf81... Delete PlayerMoveTest.unity
     - target: {fileID: 5575146531647635969, guid: c31564d3cd90a1447be3d0e2b86f47c0,
         type: 3}
       propertyPath: m_Name
@@ -226,7 +238,11 @@ PrefabInstance:
     - target: {fileID: 5575146531647635969, guid: c31564d3cd90a1447be3d0e2b86f47c0,
         type: 3}
       propertyPath: m_StaticEditorFlags
+<<<<<<< HEAD
       value: 0
+=======
+      value: 4294967295
+>>>>>>> parent of 8fabf81... Delete PlayerMoveTest.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5575146531647635969, guid: c31564d3cd90a1447be3d0e2b86f47c0,
         type: 3}
@@ -411,12 +427,19 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 162582065}
+<<<<<<< HEAD
   - component: {fileID: 162582069}
+=======
+>>>>>>> parent of 8fabf81... Delete PlayerMoveTest.unity
   - component: {fileID: 162582064}
   - component: {fileID: 162582063}
   - component: {fileID: 162582062}
   - component: {fileID: 162582061}
   - component: {fileID: 162582066}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 162582067}
+>>>>>>> parent of 8fabf81... Delete PlayerMoveTest.unity
   - component: {fileID: 162582068}
   m_Layer: 0
   m_Name: Player
@@ -547,31 +570,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2d7850d0eec12f46b062d5dd1090d77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!114 &162582068
 MonoBehaviour:
+=======
+--- !u!61 &162582067
+BoxCollider2D:
+>>>>>>> parent of 8fabf81... Delete PlayerMoveTest.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162582060}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0ca759ea70fb3f4d9cca220f0f18321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &162582069
 SphereCollider:
+=======
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.2}
+  m_EdgeRadius: 0
+--- !u!114 &162582068
+MonoBehaviour:
+>>>>>>> parent of 8fabf81... Delete PlayerMoveTest.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162582060}
+<<<<<<< HEAD
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.16
   m_Center: {x: 0, y: 0, z: 0}
+=======
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ca759ea70fb3f4d9cca220f0f18321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> parent of 8fabf81... Delete PlayerMoveTest.unity
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,6 +745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   curHealth: 100
+<<<<<<< HEAD
   bgImage: {fileID: 2800000, guid: 0d9cb5818e63e2246964361e22d809d6, type: 3}
   fgImage: {fileID: 2800000, guid: 1f961ea5828516544836361dcd9e8e33, type: 3}
   healthBarLength: 0
@@ -712,3 +772,9 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
+=======
+  bgImage: {fileID: 0}
+  fgImage: {fileID: 0}
+  healthBarLength: 0
+  damage: 0
+>>>>>>> parent of 8fabf81... Delete PlayerMoveTest.unity
