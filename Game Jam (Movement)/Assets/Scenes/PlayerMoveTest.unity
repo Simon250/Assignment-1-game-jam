@@ -593,12 +593,16 @@ PrefabInstance:
     - target: {fileID: 5575146531647635973, guid: c31564d3cd90a1447be3d0e2b86f47c0,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 276.93
+>>>>>>> MMControls
       objectReference: {fileID: 0}
     - target: {fileID: 5575146531647635973, guid: c31564d3cd90a1447be3d0e2b86f47c0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6
+      value: -3.68
       objectReference: {fileID: 0}
     - target: {fileID: 5575146531647635973, guid: c31564d3cd90a1447be3d0e2b86f47c0,
         type: 3}
