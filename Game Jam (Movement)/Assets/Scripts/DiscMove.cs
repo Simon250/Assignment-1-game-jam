@@ -17,8 +17,8 @@ public class DiscMove : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.x < screenBounds.x*-2)
-        {
+        if (transform.position.x < screenBounds.x-30|| transform.position.x > screenBounds.x+50|| transform.position.y < screenBounds.y-12 || transform.position.y > screenBounds.y + 2)
+        {//Checks if the discs are out of bounds
             Destroy(this.gameObject);
         }
     }
