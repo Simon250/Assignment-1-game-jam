@@ -23,6 +23,7 @@ public class HealthBar : MonoBehaviour
     void Update()
     {
         AddjustCurrentHealth(damage);
+
         damage = 0;
     }
 
