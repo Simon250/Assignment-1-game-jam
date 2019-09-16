@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   discPrefab: {fileID: 5575146531647635969, guid: c31564d3cd90a1447be3d0e2b86f47c0,
     type: 3}
-  SpawnTime: 0.2
+  SpawnTime: 0.8
 --- !u!114 &405294594
 MonoBehaviour:
   m_ObjectHideFlags: 0
