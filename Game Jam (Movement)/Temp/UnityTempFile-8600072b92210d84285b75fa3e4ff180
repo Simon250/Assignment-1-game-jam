@@ -1,6 +1,6 @@
 /target:library
 /nowarn:0169
-/out:Temp/Assembly-CSharp.dll
+/out:Temp/UnityEngine.UI.dll
 /debug:portable
 /optimize-
 /nostdlib+
@@ -67,17 +67,10 @@
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEditor.dll"
-/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
-/reference:Library/ScriptAssemblies/Unity.Timeline.dll
-/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
-/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
@@ -288,13 +281,87 @@
 /define:ENABLE_TIMELINE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-Assets\Scripts\CollisionDetection.cs
-Assets\Scripts\DiscColour.cs
-Assets\Scripts\DiscMove.cs
-Assets\Scripts\DiscMovment.cs
-Assets\Scripts\HealthBar.cs
-Assets\Scripts\PlayerColourChange.cs
-Assets\Scripts\PlayerMovement.cs
-Assets\Scripts\QuitButton.cs
-Assets\Scripts\SceneSwitch.cs
-Assets\Scripts\Spawndiscs.cs
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventData\AxisEventData.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventData\BaseEventData.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventData\PointerEventData.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventHandle.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventInterfaces.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventSystem.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventTrigger.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventTriggerType.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\ExecuteEvents.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\BaseInput.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\BaseInputModule.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\PointerInputModule.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\StandaloneInputModule.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\TouchInputModule.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\MoveDirection.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\RaycasterManager.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\Raycasters\BaseRaycaster.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\Raycasters\Physics2DRaycaster.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\Raycasters\PhysicsRaycaster.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\RaycastResult.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\UIBehaviour.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\Properties\AssemblyInfo.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Animation\CoroutineTween.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\AnimationTriggers.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Button.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\CanvasUpdateRegistry.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ColorBlock.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Culling\ClipperRegistry.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Culling\Clipping.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Culling\IClipRegion.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Culling\RectangularVertexClipper.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\DefaultControls.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Dropdown.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\FontData.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\FontUpdateTracker.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Graphic.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\GraphicRaycaster.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\GraphicRebuildTracker.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\GraphicRegistry.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\IGraphicEnabledDisabled.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Image.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\IMask.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\IMaskable.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\InputField.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\AspectRatioFitter.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\CanvasScaler.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\ContentSizeFitter.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\GridLayoutGroup.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\HorizontalLayoutGroup.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\HorizontalOrVerticalLayoutGroup.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\ILayoutElement.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutElement.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutGroup.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutRebuilder.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutUtility.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\VerticalLayoutGroup.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Mask.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\MaskableGraphic.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\MaskUtilities.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\MaterialModifiers\IMaterialModifier.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Misc.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Navigation.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\RawImage.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\RectMask2D.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Scrollbar.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ScrollRect.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Selectable.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\SetPropertyUtility.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Slider.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\SpecializedCollections\IndexedSet.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\SpriteState.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\StencilMaterial.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Text.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Toggle.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ToggleGroup.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Utility\ListPool.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Utility\ObjectPool.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Utility\ReflectionMethodsCache.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Utility\VertexHelper.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\BaseMeshEffect.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\IMeshModifier.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\Outline.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\PositionAsUV1.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\Shadow.cs"
