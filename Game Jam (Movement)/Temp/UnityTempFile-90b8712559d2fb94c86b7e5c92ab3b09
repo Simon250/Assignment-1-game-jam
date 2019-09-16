@@ -1,11 +1,14 @@
 /target:library
 /nowarn:0169
-/out:Temp/Assembly-CSharp.dll
+/out:Temp/Unity.TextMeshPro.dll
 /debug:portable
 /optimize-
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -67,17 +70,10 @@
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEditor.dll"
-/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
-/reference:Library/ScriptAssemblies/Unity.Timeline.dll
-/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
-/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
@@ -288,13 +284,59 @@
 /define:ENABLE_TIMELINE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-Assets\Scripts\CollisionDetection.cs
-Assets\Scripts\DiscColour.cs
-Assets\Scripts\DiscMove.cs
-Assets\Scripts\DiscMovment.cs
-Assets\Scripts\HealthBar.cs
-Assets\Scripts\PlayerColourChange.cs
-Assets\Scripts\PlayerMovement.cs
-Assets\Scripts\QuitButton.cs
-Assets\Scripts\SceneSwitch.cs
-Assets\Scripts\Spawndiscs.cs
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\AssemblyInfo.cs.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\FastAction.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\MaterialReferenceManager.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TextContainer.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TextMeshPro.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TextMeshProUGUI.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_Asset.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_Character.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_CharacterInfo.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_ColorGradient.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_CoroutineTween.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_DefaultControls.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_Dropdown.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_EditorResourceManager.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_FontAsset.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_FontAssetCommon.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_FontAssetUtilities.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_FontFeaturesCommon.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_FontFeatureTable.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_InputField.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_InputValidator.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_LineInfo.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_ListPool.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_MaterialManager.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_MeshInfo.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_ObjectPool.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_PackageResourceImporter.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_RichTextTagsCommon.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_RichTextTagStack.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_ScrollbarEventHandler.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_SelectionCaret.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_Settings.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_ShaderUtilities.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_Sprite.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_SpriteAnimator.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_SpriteAsset.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_SpriteAssetImportFormats.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_SpriteCharacter.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_SpriteGlyph.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_Style.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_StyleSheet.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_SubMesh.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_SubMeshUI.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_Text.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_TextElement.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_TextElement_Legacy.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_TextInfo.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_TextParsingUtilities.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_TextUtilities.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_UpdateManager.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMP_UpdateRegistery.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMPro_EventManager.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMPro_ExtensionMethods.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMPro_MeshUtilities.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMPro_Private.cs"
+"C:\Users\SPC\Documents\GitHub\Assignment-1-game-jam\Game Jam (Movement)\Library\PackageCache\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMPro_UGUI_Private.cs"

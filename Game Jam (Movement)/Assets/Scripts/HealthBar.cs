@@ -9,24 +9,24 @@ public class HealthBar : MonoBehaviour
 
     public Texture2D bgImage;
     public Texture2D fgImage;
-    public GameObject HB;
+    //public GameObject HB;
     public float healthBarLength;
-    public Vector3 HPlength;
+    //public Vector3 HPlength;
     // Use this for initialization
     void Start()
     {
         healthBarLength = Screen.width / 2;
-        HB = GameObject.Find("HP background");
-        HPlength = HB.GetComponent<SpriteRenderer>().bounds.size.x;
+       // HB = GameObject.Find("HP background");
+       // HPlength = HB.GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
     public int damage = 0;
     // Update is called once per frame
-    void Update()
+    void Update()   
     {
         AddjustCurrentHealth(damage);
         float percentHP = curHealth / maxHealth;
-        HB.transform.localScale.x = HPlength * percentHP;
+        //HB.transform.localScale.x = HPlength * percentHP;
         damage = 0;
     }
 
