@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthBar : MonoBehaviour
 {
@@ -28,6 +29,11 @@ public class HealthBar : MonoBehaviour
         float percentHP = curHealth / maxHealth;
         //HB.transform.localScale.x = HPlength * percentHP;
         damage = 0;
+        if (curHealth == 0)
+        {//Checks if there is 0 HP Left for the player
+            Debug.Log("Death");
+            SceneManager.LoadScene("DeathScene");//Loads Control Scene
+        }
     }
 
     void OnGUI()
@@ -65,4 +71,5 @@ public class HealthBar : MonoBehaviour
 
         healthBarLength = (Screen.width / 2) * (curHealth / (float)maxHealth);
     }
+
 }

@@ -19,10 +19,10 @@ public class CollisionDetection : MonoBehaviour
     {
         GameObject Player = GameObject.Find("Player");
         GameObject scoretext = GameObject.Find("Score");
+        GameObject ui = GameObject.Find("Main Camera");
 
         //Check for a match with the specified name on any GameObject that collides with the player
-        if (collision.gameObject.GetComponent<Renderer>().material.color == Player.gameObject.GetComponent<Renderer>().material.color)
-        {
+        if (collision.gameObject.GetComponent<Renderer>().material.color == Player.gameObject.GetComponent<Renderer>().material.color) {
             string texttemp = scoretext.GetComponent<TextMesh>().text;
             string[] splitArray = texttemp.Split(char.Parse(" "));
             string temp2 = splitArray[0];
@@ -34,10 +34,11 @@ public class CollisionDetection : MonoBehaviour
             scoretext.GetComponent<TextMesh>().text = temp2;
         }
         else {
-            GameObject ui = GameObject.Find("Main Camera");
             ui.GetComponent<HealthBar>().damage = -20;
+            Debug.Log(ui.GetComponent<HealthBar>().damage);
         }
         Player = null;
         scoretext = null;
+
     }
 }
