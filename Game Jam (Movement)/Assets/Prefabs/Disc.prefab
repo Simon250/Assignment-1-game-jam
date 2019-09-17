@@ -109,12 +109,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ee5e451f29c4bc4991cef5258f4e02c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WDI: {fileID: 0}
+  WDI: {fileID: 21300000, guid: 20c6e9e7626c3c645b30018d5a7d6b2f, type: 3}
   YDI: {fileID: 21300000, guid: e978944192209a043b0231bfb336eeee, type: 3}
-  GDI: {fileID: 0}
+  GDI: {fileID: 21300000, guid: c4af768a1c68fab44824ea9beb168473, type: 3}
   RDI: {fileID: 21300000, guid: 611970a1de3e04247b232585fd2df811, type: 3}
   BluDI: {fileID: 21300000, guid: 99b5650f62034c4458cbfc2f147a6fde, type: 3}
-  BlaDI: {fileID: 0}
+  BlaDI: {fileID: 21300000, guid: 783c62d0779ee2148b265d627e8c8b6f, type: 3}
 --- !u!135 &3249499669424540965
 SphereCollider:
   m_ObjectHideFlags: 0

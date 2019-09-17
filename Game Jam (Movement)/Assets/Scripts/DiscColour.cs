@@ -15,7 +15,7 @@ public class DiscColour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int rng = Random.Range(0, 5);
+        int rng = Random.Range(0, 6);
         gameObject.GetComponent<Renderer>().material.color = DC[rng];//sets colour for collition detection
 
         //sets sprite based on spawn colour

@@ -311,12 +311,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2d7850d0eec12f46b062d5dd1090d77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPI: {fileID: 0}
+  WPI: {fileID: 21300000, guid: 1f6d0138ebe240e4190ef4d63342ea15, type: 3}
   YPI: {fileID: 21300000, guid: cd4bee1d1cfaa3440a605e5ef62d0cf1, type: 3}
-  GPI: {fileID: 0}
+  GPI: {fileID: 21300000, guid: 54a19054544d69a4c881c63ab0425fee, type: 3}
   RPI: {fileID: 21300000, guid: 72490f6daf8e2be4597a58d4c8c66387, type: 3}
   BluPI: {fileID: 21300000, guid: 1988c34e39caa674180adf6148a024bb, type: 3}
-  BlaPI: {fileID: 0}
+  BlaPI: {fileID: 21300000, guid: 9dce16f924b336f4b9c65793757b7c4d, type: 3}
 --- !u!114 &769415714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -613,7 +613,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ae0167c6fc365304b8a2286f5d7af30d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.263
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
