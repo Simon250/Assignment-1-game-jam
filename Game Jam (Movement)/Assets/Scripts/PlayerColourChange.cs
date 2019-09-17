@@ -5,6 +5,12 @@ using UnityEngine;
 public class PlayerColourChange : MonoBehaviour
 {
     Color[] colours = {Color.white, Color.yellow, Color.green, Color.red, Color.blue, Color.black};
+    public Sprite WPI;
+    public Sprite YPI;
+    public Sprite GPI;
+    public Sprite RPI;
+    public Sprite BluPI;
+    public Sprite BlaPI;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +29,7 @@ public class PlayerColourChange : MonoBehaviour
             if (colours[0] == temp)
             {
                 gameObject.GetComponent<Renderer>().material.color = colours[5];
+                gameObject.GetComponent<SpriteRenderer>().sprite = BlaPI;
             }
             else
             {
@@ -32,6 +39,26 @@ public class PlayerColourChange : MonoBehaviour
                     if (colours[cc] == temp)
                     {
                         gameObject.GetComponent<Renderer>().material.color = colours[cc - 1];
+                        if (cc == 1)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().sprite = WPI;
+                        }
+                        else if (cc == 2)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().sprite = YPI;
+                        }
+                        else if (cc == 3)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().sprite = GPI;
+                        }
+                        else if (cc == 4)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().sprite = RPI;
+                        }
+                        else if (cc == 5)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().sprite = BluPI;
+                        }
                         cc = 6;
                     }
                     else
@@ -51,6 +78,7 @@ public class PlayerColourChange : MonoBehaviour
             if (colours[5] == temp)
             {
                 gameObject.GetComponent<Renderer>().material.color = colours[0];
+                gameObject.GetComponent<SpriteRenderer>().sprite = WPI;
             }
             else
             {
@@ -60,6 +88,26 @@ public class PlayerColourChange : MonoBehaviour
                     if (colours[cc] == temp)
                     {
                         gameObject.GetComponent<Renderer>().material.color = colours[cc + 1];
+                        if (cc == 0)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().sprite = YPI;
+                        }
+                        else if (cc == 1)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().sprite = GPI;
+                        }
+                        else if (cc == 2)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().sprite = RPI;
+                        }
+                        else if (cc == 3)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().sprite = BluPI;
+                        }
+                        else if (cc == 4)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().sprite = BlaPI;
+                        }
                         cc = 6;
                     }
                     else
