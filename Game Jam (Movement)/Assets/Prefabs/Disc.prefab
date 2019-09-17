@@ -109,6 +109,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ee5e451f29c4bc4991cef5258f4e02c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WDI: {fileID: 0}
+  YDI: {fileID: 21300000, guid: e978944192209a043b0231bfb336eeee, type: 3}
+  GDI: {fileID: 0}
+  RDI: {fileID: 21300000, guid: 611970a1de3e04247b232585fd2df811, type: 3}
+  BluDI: {fileID: 21300000, guid: 99b5650f62034c4458cbfc2f147a6fde, type: 3}
+  BlaDI: {fileID: 0}
 --- !u!135 &3249499669424540965
 SphereCollider:
   m_ObjectHideFlags: 0

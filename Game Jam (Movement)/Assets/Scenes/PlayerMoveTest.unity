@@ -311,6 +311,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2d7850d0eec12f46b062d5dd1090d77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WPI: {fileID: 0}
+  YPI: {fileID: 21300000, guid: cd4bee1d1cfaa3440a605e5ef62d0cf1, type: 3}
+  GPI: {fileID: 0}
+  RPI: {fileID: 21300000, guid: 72490f6daf8e2be4597a58d4c8c66387, type: 3}
+  BluPI: {fileID: 21300000, guid: 1988c34e39caa674180adf6148a024bb, type: 3}
+  BlaPI: {fileID: 0}
 --- !u!114 &769415714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -820,5 +826,23 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: -0.0076400936
       objectReference: {fileID: 0}
+    - target: {fileID: -911662373828024677, guid: c31564d3cd90a1447be3d0e2b86f47c0,
+        type: 3}
+      propertyPath: YDI
+      value: 
+      objectReference: {fileID: 21300000, guid: e978944192209a043b0231bfb336eeee,
+        type: 3}
+    - target: {fileID: -911662373828024677, guid: c31564d3cd90a1447be3d0e2b86f47c0,
+        type: 3}
+      propertyPath: RDI
+      value: 
+      objectReference: {fileID: 21300000, guid: 611970a1de3e04247b232585fd2df811,
+        type: 3}
+    - target: {fileID: -911662373828024677, guid: c31564d3cd90a1447be3d0e2b86f47c0,
+        type: 3}
+      propertyPath: BluDI
+      value: 
+      objectReference: {fileID: 21300000, guid: 99b5650f62034c4458cbfc2f147a6fde,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c31564d3cd90a1447be3d0e2b86f47c0, type: 3}
