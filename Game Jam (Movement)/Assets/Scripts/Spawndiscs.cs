@@ -23,6 +23,7 @@ public class Spawndiscs : MonoBehaviour{
         string temp = splitArray[1];
         int tempnum = int.Parse(temp);
 
+        //decreases the time between spawns based on player score
         if (tempnum >= 10000) {
             SpawnTime = 0.006f;
         }

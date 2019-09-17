@@ -11,6 +11,7 @@ public class PlayerColourChange : MonoBehaviour
     public Sprite RPI;
     public Sprite BluPI;
     public Sprite BlaPI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class PlayerColourChange : MonoBehaviour
             Color temp = GetComponent<SpriteRenderer>().material.color;
             int cc = 0;
 
-            if (colours[0] == temp)
+            if (colours[0] == temp)//stops errors and loops the array
             {
                 gameObject.GetComponent<Renderer>().material.color = colours[5];
                 gameObject.GetComponent<SpriteRenderer>().sprite = BlaPI;
@@ -38,7 +39,9 @@ public class PlayerColourChange : MonoBehaviour
 
                     if (colours[cc] == temp)
                     {
-                        gameObject.GetComponent<Renderer>().material.color = colours[cc - 1];
+                        gameObject.GetComponent<Renderer>().material.color = colours[cc - 1];//sets colour for collition detection
+
+                        //sets sprite based on colour
                         if (cc == 1)
                         {
                             gameObject.GetComponent<SpriteRenderer>().sprite = WPI;
@@ -75,7 +78,7 @@ public class PlayerColourChange : MonoBehaviour
             Color temp = GetComponent<SpriteRenderer>().material.color;
             int cc = 0;
 
-            if (colours[5] == temp)
+            if (colours[5] == temp)//stops errors and loops the array
             {
                 gameObject.GetComponent<Renderer>().material.color = colours[0];
                 gameObject.GetComponent<SpriteRenderer>().sprite = WPI;
@@ -87,7 +90,9 @@ public class PlayerColourChange : MonoBehaviour
 
                     if (colours[cc] == temp)
                     {
-                        gameObject.GetComponent<Renderer>().material.color = colours[cc + 1];
+                        gameObject.GetComponent<Renderer>().material.color = colours[cc + 1];//sets colour for collition detection
+
+                        //sets sprite based on colour
                         if (cc == 0)
                         {
                             gameObject.GetComponent<SpriteRenderer>().sprite = YPI;

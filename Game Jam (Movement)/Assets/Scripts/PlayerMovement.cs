@@ -15,32 +15,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-
-        //// tests if position is out of the top boundry
-        //if (transform.position.y > (screenBounds.y))
-        //{
-        //    transform.position = transform.position - move;
-        //}
-        //// tests if position is out of the bottom boundry
-        //else if (transform.position.y < (-screenBounds.y))
-        //{
-        //    transform.position = transform.position - move;
-        //}
-        //// tests if position is out of the right boundry (i think its right)
-        //else if (transform.position.x > (screenBounds.x))
-        //{
-        //    transform.position = transform.position - move;
-        //}
-        //// tests if position is out of the left boundry
-        //else if (transform.position.x < (-screenBounds.x))
-        //{
-        //    transform.position = transform.position - move;
-        //}
-        //else
-        //{
-        //    transform.position += move * speed * Time.deltaTime;
-        //}
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
         // Get new position in advance

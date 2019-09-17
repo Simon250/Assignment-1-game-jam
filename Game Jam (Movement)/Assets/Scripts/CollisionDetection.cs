@@ -25,15 +25,18 @@ public class CollisionDetection : MonoBehaviour
         if (collision.gameObject.GetComponent<Renderer>().material.color == Player.gameObject.GetComponent<Renderer>().material.color) {
             string texttemp = scoretext.GetComponent<TextMesh>().text;
             string[] splitArray = texttemp.Split(char.Parse(" "));
+
             string temp2 = splitArray[0];
             string temp = splitArray[1];
             int tempnum = int.Parse(temp);
+
             tempnum += 100;
             temp2 = temp2 + " " + tempnum;
             
             scoretext.GetComponent<TextMesh>().text = temp2;
         }
         else {
+            //adds damage to the player
             ui.GetComponent<HealthBar>().damage = -20;
             Debug.Log(ui.GetComponent<HealthBar>().damage);
         }
