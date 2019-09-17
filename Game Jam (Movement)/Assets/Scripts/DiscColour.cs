@@ -16,8 +16,9 @@ public class DiscColour : MonoBehaviour
     void Start()
     {
         int rng = Random.Range(0, 5);
-        gameObject.GetComponent<Renderer>().material.color = DC[rng];
+        gameObject.GetComponent<Renderer>().material.color = DC[rng];//sets colour for collition detection
 
+        //sets sprite based on spawn colour
         if (rng == 0) {
             gameObject.GetComponent<SpriteRenderer>().sprite = WDI;
         }
